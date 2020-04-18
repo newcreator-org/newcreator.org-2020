@@ -4,6 +4,12 @@
 
 ---
 
+This website uses Angular framework and [NgLp](https://github.com/deer-inc/ng-lp) Library.
+
+If you want to change this website, you edit `src/app/app.component.ts` files.
+
+---
+
 ## Dev
 
 ### Package install (Require node.js, npm or yarn)
