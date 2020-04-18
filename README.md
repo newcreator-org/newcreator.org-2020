@@ -6,7 +6,13 @@
 
 ## Dev
 
-### watching and open dev-server
+### Package install (Require node.js, npm or yarn)
+
+```
+$ npm i
+```
+
+### Watching files and open dev-server
 
 ```
 $ npm run start
