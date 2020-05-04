@@ -19,36 +19,54 @@ export class AppComponent {
     },
     menues: [
       {
-        label: '会員になる',
-        url: ''
+        label: 'サービスサイト',
+        url: 'https://www.new.or.jp/'
       }
     ],
     contents: {
       hero: {
         mainText: 'いまの「まなび」がミライをつくる。',
         subText: '特定非営利活動法人ニュークリエイター・オルグ',
-        actionLabel: 'ボタン',
+        //actionLabel: 'ボタン',
         coverURL: './assets/img/TOP.jpg'
       },
       concept: {
         title: 'プログラミング教育が必修化されましたが…',
-        description: 'なにか対策はできていますか？なにか対策はできていますか？なにか対策はできていますか？なにか対策はできていますか？なにか対策はできていますか？なにか対策はできていますか？',
+        description: '2020年度から小学校においてプログラミングが必修化されました。お子様の学びに不安がある保護者様も多いのではないでしょうか。ニュークリエイターはそんな皆さまを全力でサポートします。',
         clipURL: './assets/img/2842680.jpg'
       },
       features: [
         {
-          imageURL: './assets/img/2842680.jpg',
-          title: '項目1',
-          description: '項目1',
-          actionLabel: 'リンク',
-          actionURL: ''
+          imageURL: './assets/img/platform.png',
+          title: '教材プラットフォーム事業',
+          description: 'オープンソースの教材提供プラットフォームを運用しています。',
+          // actionLabel: 'newcreator.net',
+          // actionURL: ''
+          // .netとdev_textbook 
+        },
+        {
+          imageURL: './assets/img/school.png',
+          title: '教室事業',
+          description: 'プログラミングや理科を子どもたちに楽しく学んでもらえる教室を運営しています。',
+          // actionLabel: 'リンク',
+          // actionURL: ''
+          //newCreator, telelab
+        },
+        {
+          imageURL: './assets/img/media.png',
+          title: 'メディア事業',
+          description: '小中学生を対象としたプログラミングについての記事を扱うメディアを運営しています。',
+          actionLabel: 'Miravii',
+          actionURL: 'https://miravii.com'
+          //miravii
         },
         {
           imageURL: './assets/img/2842680.jpg',
-          title: '項目1',
-          description: '項目1',
-          actionLabel: 'リンク',
-          actionURL: ''
+          title: '受託開発事業',
+          description: 'ウェブページの製作などを受注しています。',
+          // actionLabel: 'リンク',
+          // actionURL: ''
+          //newCreator, telelab
         }
       ],
       medias: [
@@ -61,19 +79,19 @@ export class AppComponent {
       faqs: [
         {
           question: 'newCreator.orgとは？',
-          answer: '次世代の学びをオープンに制作し、提供するNPO法人です。\nプログラミングや理科教材を開発し、これらの媒体や設計データをオープンソース公開しています。',
+          answer: '次世代の学びをオープンに制作し、提供するNPO法人です。\nプログラミングや理科の教材を開発し、これらの媒体や設計データをオープンソース公開しています。\n また、それらの教材を活用したイベント開催などもしています。イベント等の詳細はサービスサイト （https://www.new.or.jp/）をご覧ください。',
         },
         {
           question: 'newCreator.netって何？',
           answer: 'オープンソース教材に準拠した、様々な着眼点からのプログラミング教材配信プラットフォームです。\n小学生、中学生の様々な観点からのプログラミングの学び方に対応しています。',
         },
-        {
-          question: '教育の品質はどうなの…？',
-          answer: '',
-        },
+        // {
+        //   question: '教育の品質はどうなの…？',
+        //   answer: '',
+        // },
         {
           question: 'なにかお手伝いできることはありますか？',
-          answer: 'newCreator.orgでは、様々な立場から関わってくださる方を募集しています！\nぜひサイト右上にある「会員になる」から応募をよろしくおねがいします。',
+          answer: 'newCreator.orgでは、様々な立場から関わってくださる方を募集しています！\n ご興味のあるかたはcontact@newcreator.orgまでお問い合わせください。',
         }
       ],
       "voices": [
@@ -81,13 +99,13 @@ export class AppComponent {
           "name": "改野 由尚",
           "position": "理事長",
           "photoURL": "https://static.camp-fire.jp/uploads/user/profile_image/565390/edLIM_MH_400x400.jpg?ixlib=rails-2.1.4&auto=format",
-          "comment": "慶應義塾大学1年。学業の傍らで行なったインターンシップやフリーランス、スタートアップ創業などを経て、ニュークリエイター・オルグを設立、代表理事に就任。現在もほか数社でフリーランスでエンジニア、UIデザイナー、WEBマーケターとして活動中。"
+          "comment": "慶應義塾大学1年。学業の傍らで行なったインターンシップやフリーランス、スタートアップ創業などを経て、ニュークリエイター・オルグを設立、理事長に就任。現在もほか数社でフリーランスでエンジニア、UIデザイナー、WEBマーケターとして活動中。"
         },
         {
           "name": "浅賀 巧匠",
           "position": "副理事長",
-          "photoURL": "https://special.ycam.jp/personal-bio/img/participants/asaga-67a78c5f.jpg",
-          "comment": "筑波大学2年。XXXXXX"
+          "photoURL": "https://asaga.work/profile.jpg",
+          "comment": "筑波大学2年。NPO法人ハックジャパン時代からnew Creator事業に参画し、2020年1月にニュークリエイター・オルグの副理事長に就任した。"
         },
         {
           "name": "小山 優輝",

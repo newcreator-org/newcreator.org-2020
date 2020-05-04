@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "newcreator-org"
+    }
+  },
+  "defaultProject": "newcreator-org",
+  "cli": {
+    "analytics": "f9542914-1a79-401d-b230-d7c811f61998"
+  }
 }
