@@ -15,7 +15,8 @@ export class AppComponent {
     // ],
     account: {
       gitHub: 'https://github.com/newcreator-org',
-      facebook: 'https://www.facebook.com/newcreator.org'
+      facebook: 'https://www.facebook.com/newcreator.org',
+      twitter: 'https://twitter.com/nC_org'
     },
     menues: [
       {
