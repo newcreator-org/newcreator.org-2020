@@ -1,12 +1,13 @@
-// @import url('https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css');
+@import url('https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Seaweed+Script&display=swap');
 
 @import './components/header.scss';
 @import './components/hero.scss';
 
-html,
 body {
-  background: #EFF3F4;
+  margin: 0;
+  // background: #EFF3F4;
+  background-color: #FFF;
   font-family: 'Noto Sans JP',
     -apple-system,
     BlinkMacSystemFont,
