@@ -4,8 +4,8 @@
 @import './components/header.scss';
 @import './components/hero.scss';
 
-html,
 body {
+  margin: 0;
   background: #EFF3F4;
   font-family: 'Noto Sans JP',
     -apple-system,
