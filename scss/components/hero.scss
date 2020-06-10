@@ -40,3 +40,16 @@
     line-height: 1.5;
   }
 }
+
+
+
+@media screen and (max-width: 980px) {
+  .hero {
+    &__title {
+      &--apply {
+        font-size: 2rem;
+        line-height: 140%;
+      }
+    }
+  }
+}
