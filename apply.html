@@ -41,6 +41,9 @@
       </nav>
     </header>
     <main>
+      <footer class="footer--sticky">
+        <p class="footer--sticky__text">ご好評につき、一次募集は終了いたしました。<br>みなさまのご応募ありがとうございました！</p>
+      </footer>
       <section class="hero__cover--apply">
         <div class="hero-body">
           <h1 class="hero__title--apply">おうちでプログラミングをはじめよう。<br>全国の小学生に micro:bit プレゼント！</h1>
@@ -315,17 +318,20 @@
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-12">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">ご応募はこちらから</h1>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">利用規約、ルールをよくお読みの上ご応募ください。<br><strong>一次締切は
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base" style="text-decoration: line-through;">
+              利用規約、ルールをよくお読みの上ご応募ください。<br><strong>一次締切は
                 6/30 23:59
-                までとなっております。</strong></p>
+                までとなっております。</strong></p><br>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+              一次募集は終了いたしました。</p>
           </div>
-          <div class="lg:w-1/2 md:w-2/3 mx-auto"><a href="https://forms.gle/MBJokWx5A5uam1P5A"
-              onClick="ga('send', 'click', 'form');">
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <!-- <a href="https://forms.gle/MBJokWx5A5uam1P5A">
               <button
                 class="flex mx-auto mt-4 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-
                 フォームへ
-              </button></a>
+              </button>
+            </a> -->
           </div>
         </div>
       </section>
@@ -364,7 +370,8 @@
                   src="./img/apply/sponser/kids-weekend.png">
               </a>
               <div class="mt-4">
-                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">子供向け教室・イベントの検索・予約サービス</h3>
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">子供向け教室・イベントの検索・予約サービス
+                </h3>
                 <h2 class="text-gray-900 title-font text-lg font-medium">Kids Weekendさま</h2>
               </div>
             </div>
@@ -535,7 +542,7 @@
         </div>
       </section>
     </main>
-    <footer class="text-gray-700 body-font">
+    <footer class="text-gray-700 body-font" style="margin-bottom: 60px;">
       <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <p class="text-sm text-gray-500 sm:py-2 sm:mt-0 mt-4">
           <small lang="en">© 2020 -
