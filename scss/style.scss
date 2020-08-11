@@ -1,8 +1,9 @@
 @import url('https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Seaweed+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Seaweed+Script&Ubuntu:ital,wght@1,400&display=swap');
 
 @import './components/header.scss';
 @import './components/hero.scss';
+@import './components/message.scss';
 
 body {
   margin: 0;
