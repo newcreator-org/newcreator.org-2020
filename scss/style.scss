@@ -5,11 +5,21 @@
 @import './components/hero.scss';
 @import './components/message.scss';
 
+@font-face {
+  font-family: minmoji;
+  src: url('https://minmoji.ucda.jp/fontseot/https%3A__newcreator.org');
+  src: local('minmoji'),
+    url('https://minmoji.ucda.jp/fontswoff/https%3A__newcreator.org') format('woff'),
+    url('https://minmoji.ucda.jp/fonts/https%3A__newcreator.org') format('opentype');
+}
+
 body {
   margin: 0;
   // background: #EFF3F4;
   background-color: #FFF;
-  font-family: 'Noto Sans JP',
+  font-family: minmoji,
+    'minmoji',
+    'Noto Sans JP',
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
